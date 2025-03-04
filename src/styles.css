@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family:'Times New Roman', Times, serif;
+  /* background-image: url("../..//portfolio/src/assets/video/videoplayback.mp4"); */
+  background-color: black;
+  /* color: white; */
+}
+
+/* Ensure content fits within the viewport */
+.container {
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -1,0 +1,69 @@
+.container{
+  background-color: black;
+
+}
+.ban_img{
+    margin-top:6pc !important;
+
+}
+.b2_img{
+    width: 100%;
+}
+.card{
+    box-shadow: 0px 0px 15px 0px gray;
+}
+.col_img{
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 0px purple;
+}
+/* .tech_card {
+    height: 10pc; 
+    margin: 10px; 
+    width: 100%;
+    transition: height 2s ease-in-out, margin 2s ease-in-out, z-index 2s ease-in-out ; 
+} */
+.tech_card {
+    transition: 1s;
+    text-align: center;
+}
+
+.tech_card p {
+    opacity: 0;
+    height: 0;
+    transition: opacity 1s ease-in-out, height 1s ease-in-out;
+}
+
+.tech_card:hover p {
+    opacity: 1;
+    height: auto;
+}
+.about_cont{
+    padding: 40px;
+}
+
+.tech_card:hover {
+    height: 12pc; 
+    margin: -25px; 
+    z-index: 1000;
+    animation-duration: 4s; 
+}
+.card-title{
+    color:cadetblue;
+}
+.tech_head{
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius:15px;
+    padding: 10px;
+    width: 22%;
+}
+ 
+
+.cont_crd{
+    border-radius: 15px;
+}
+
+.img_about{
+    height: 400px;
+    width: 400px;
+}

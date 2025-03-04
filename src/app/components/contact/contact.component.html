@@ -1,0 +1,40 @@
+<app-header></app-header>
+<div class="container">
+    <div class="contact_field ">
+        <div class="contact_form">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 ">
+                    <h1>Contact-me</h1>
+                    <div class="card_cont">
+                        <h5><i class="fa-solid fa-location-dot px-3"></i> KPHB colony phase-1 Dharmareddy colony</h5>
+                        <h5 class="my-3"><i class="fa-solid fa-phone"></i> +91 6303233645</h5>
+                        <h5><i class="fa-solid fa-envelope"></i> venkatsaipratheekgmail.com</h5>
+                    </div>
+                </div>
+    
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 ">
+                    <!-- <p class="py-3"></p> -->
+                <!-- <form > -->
+                    <label class="my-2">Name</label>
+                    <input type="text" class="form-control" aria-label="Recipient's username" [(ngModel)]="form.name">
+
+                    <label class="my-2">Email</label>
+                    <input type="text" class="form-control" aria-label="Recipient's username" [(ngModel)]="form.email">
+
+                    <label class="my-2">Message</label>
+                    <textarea type="text" class="form-control" aria-label="Recipient's username" [(ngModel)]="form.message"></textarea>
+
+                    <button class="btn btn-secondary snd_btn text-light bg-dark my-4" type="button" (click)="send()">
+                        <span>
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </span>
+                    </button>
+                <!-- </form> -->
+                    
+                </div>
+            </div>
+        </div>
+     
+    </div>
+</div>
+<app-footer></app-footer>
